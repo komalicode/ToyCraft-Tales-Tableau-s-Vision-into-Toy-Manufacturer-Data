@@ -1,0 +1,1023 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20251.25.0520.1026                               -->
+<workbook original-version='18.1' source-build='2025.1.2 (20251.25.0520.1026)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AccessibleZoneTabOrder />
+    <AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelExtractV2 />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+    <WorksheetBackgroundTransparency />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='Week 39 - US Toy Manufacturers - 2005 to 2016' inline='true' name='federated.1kwucfo1umwjdt100hul50gmdh82' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Week 39 - US Toy Manufacturers - 2005 to 2016' name='textscan.13gij5w1kymj471bhl4ln0mpawus'>
+            <connection class='textscan' directory='C:/Users/Admin/Downloads' filename='Week 39 - US Toy Manufacturers - 2005 to 2016.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.13gij5w1kymj471bhl4ln0mpawus' name='Week 39 - US Toy Manufacturers - 2005 to 2016.csv' table='[Week 39 - US Toy Manufacturers - 2005 to 2016#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='integer' name='index' ordinal='0' />
+            <column datatype='string' name='State' ordinal='1' />
+            <column datatype='integer' name='Year' ordinal='2' />
+            <column datatype='integer' name='Number of Manufacturers' ordinal='3' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Week 39 - US Toy Manufacturers - 2005 to 2016.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>index</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[index]</local-name>
+            <parent-name>[Week 39 - US Toy Manufacturers - 2005 to 2016.csv]</parent-name>
+            <remote-alias>index</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Week 39 - US Toy Manufacturers - 2005 to 2016.csv_6A410C1EAC0D4717992C42EBC1BBECCF]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>State</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[State]</local-name>
+            <parent-name>[Week 39 - US Toy Manufacturers - 2005 to 2016.csv]</parent-name>
+            <remote-alias>State</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[Week 39 - US Toy Manufacturers - 2005 to 2016.csv_6A410C1EAC0D4717992C42EBC1BBECCF]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Year</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Year]</local-name>
+            <parent-name>[Week 39 - US Toy Manufacturers - 2005 to 2016.csv]</parent-name>
+            <remote-alias>Year</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Week 39 - US Toy Manufacturers - 2005 to 2016.csv_6A410C1EAC0D4717992C42EBC1BBECCF]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Number of Manufacturers</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Number of Manufacturers]</local-name>
+            <parent-name>[Week 39 - US Toy Manufacturers - 2005 to 2016.csv]</parent-name>
+            <remote-alias>Number of Manufacturers</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Week 39 - US Toy Manufacturers - 2005 to 2016.csv_6A410C1EAC0D4717992C42EBC1BBECCF]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column aggregation='None' caption='Index (bin)' datatype='integer' name='[Index (bin)]' role='dimension' type='ordinal'>
+        <calculation class='bin' decimals='-1' formula='[index]' peg='0' size='20.7' />
+      </column>
+      <column datatype='string' name='[State]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+      <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+      <column caption='Week 39 - US Toy Manufacturers - 2005 to 2016.csv' datatype='table' name='[__tableau_internal_object_id__].[Week 39 - US Toy Manufacturers - 2005 to 2016.csv_6A410C1EAC0D4717992C42EBC1BBECCF]' role='measure' type='quantitative' />
+      <column caption='Index' datatype='integer' name='[index]' role='measure' type='quantitative' />
+      <column-instance column='[index]' derivation='Count' name='[cnt:index:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[State]' derivation='None' name='[none:State:nk]' pivot='key' type='nominal' />
+      <column-instance column='[index]' derivation='Sum' name='[sum:index:qk]' pivot='key' type='quantitative' />
+      <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='' units='records'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='C:/Users/Admin/AppData/Local/Temp/TableauTemp/#TableauTemp_1lo600i159mz491bsa5q30x7uqjd.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='06/26/2025 06:52:23 AM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>index</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[index]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>index</remote-alias>
+              <ordinal>0</ordinal>
+              <family>Week 39 - US Toy Manufacturers - 2005 to 2016.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>591</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Week 39 - US Toy Manufacturers - 2005 to 2016.csv_6A410C1EAC0D4717992C42EBC1BBECCF]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>State</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[State]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>State</remote-alias>
+              <ordinal>1</ordinal>
+              <family>Week 39 - US Toy Manufacturers - 2005 to 2016.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>52</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[Week 39 - US Toy Manufacturers - 2005 to 2016.csv_6A410C1EAC0D4717992C42EBC1BBECCF]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Year</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Year]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Year</remote-alias>
+              <ordinal>2</ordinal>
+              <family>Week 39 - US Toy Manufacturers - 2005 to 2016.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>12</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Week 39 - US Toy Manufacturers - 2005 to 2016.csv_6A410C1EAC0D4717992C42EBC1BBECCF]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Number of Manufacturers</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Number of Manufacturers]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Number of Manufacturers</remote-alias>
+              <ordinal>3</ordinal>
+              <family>Week 39 - US Toy Manufacturers - 2005 to 2016.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>68</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Week 39 - US Toy Manufacturers - 2005 to 2016.csv_6A410C1EAC0D4717992C42EBC1BBECCF]</object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:State:nk]' type='palette'>
+            <map to='#499894'>
+              <bucket>&quot;New Hampshire&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Washington&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Alabama&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Massachusetts&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;South Carolina&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Colorado&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Missouri&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;United States&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;California&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Illinois&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;North Carolina&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;New Jersey&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;West Virginia&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Maryland&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Montana&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Utah&quot;</bucket>
+            </map>
+            <map to='#9c755f'>
+              <bucket>&quot;Georgia&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Kentucky&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Puerto Rico&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Alaska&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Michigan&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;South Dakota&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Delaware&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Oregon&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Nebraska&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Vermont&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Idaho&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;North Dakota&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Indiana&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Ohio&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Kansas&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Pennsylvania&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Louisiana&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Rhode Island&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Arkansas&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;New Mexico&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Wisconsin&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;Connecticut&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Nevada&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Virginia&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Arizona&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Minnesota&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Tennessee&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Iowa&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Oklahoma&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Hawaii&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;New York&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Wyoming&quot;</bucket>
+            </map>
+            <map to='#ff9da7'>
+              <bucket>&quot;Florida&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Maine&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Mississippi&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Texas&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.1kwucfo1umwjdt100hul50gmdh82].[cnt:index:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.1kwucfo1umwjdt100hul50gmdh82].[sum:index:qk]&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <field-sort-info field-sort-order-type='custom-order'>
+        <field-sort-custom-order field='index' />
+        <field-sort-custom-order field='State' />
+        <field-sort-custom-order field='Year' />
+        <field-sort-custom-order field='Number of Manufacturers' />
+        <field-sort-custom-order field='Calculation_528610031208099842' />
+        <field-sort-custom-order field='Calculation_528610031207800833' />
+        <field-sort-custom-order field='Geometry (generated)' />
+        <field-sort-custom-order field='Latitude (generated)' />
+        <field-sort-custom-order field='Longitude (generated)' />
+        <field-sort-custom-order field=':Measure Names' />
+        <field-sort-custom-order field='Multiple Values' />
+      </field-sort-info>
+      <object-graph>
+        <objects>
+          <object caption='Week 39 - US Toy Manufacturers - 2005 to 2016.csv' id='Week 39 - US Toy Manufacturers - 2005 to 2016.csv_6A410C1EAC0D4717992C42EBC1BBECCF'>
+            <properties context=''>
+              <relation connection='textscan.13gij5w1kymj471bhl4ln0mpawus' name='Week 39 - US Toy Manufacturers - 2005 to 2016.csv' table='[Week 39 - US Toy Manufacturers - 2005 to 2016#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='integer' name='index' ordinal='0' />
+                  <column datatype='string' name='State' ordinal='1' />
+                  <column datatype='integer' name='Year' ordinal='2' />
+                  <column datatype='integer' name='Number of Manufacturers' ordinal='3' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Analysis on Toy Manufacturer by index'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Week 39 - US Toy Manufacturers - 2005 to 2016' name='federated.1kwucfo1umwjdt100hul50gmdh82' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1kwucfo1umwjdt100hul50gmdh82'>
+            <column aggregation='None' caption='Index (bin)' datatype='integer' name='[Index (bin)]' role='dimension' type='ordinal'>
+              <calculation class='bin' decimals='-1' formula='[index]' peg='0' size='20.7' />
+            </column>
+            <column-instance column='[index]' derivation='Count' name='[cnt:index:qk]' pivot='key' type='quantitative' />
+            <column caption='Index' datatype='integer' name='[index]' role='measure' type='quantitative' />
+            <column-instance column='[Index (bin)]' derivation='None' name='[none:Index (bin):ok]' pivot='key' type='ordinal' />
+            <column-instance column='[index]' derivation='Sum' name='[sum:index:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.1kwucfo1umwjdt100hul50gmdh82].[sum:index:qk]' field-type='quantitative' fold='true' scope='rows' type='space' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='3' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.1kwucfo1umwjdt100hul50gmdh82].[:Measure Names]' />
+            </encodings>
+          </pane>
+          <pane id='4' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.1kwucfo1umwjdt100hul50gmdh82].[cnt:index:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.1kwucfo1umwjdt100hul50gmdh82].[:Measure Names]' />
+            </encodings>
+          </pane>
+          <pane id='5' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.1kwucfo1umwjdt100hul50gmdh82].[sum:index:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.1kwucfo1umwjdt100hul50gmdh82].[:Measure Names]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>([federated.1kwucfo1umwjdt100hul50gmdh82].[cnt:index:qk] + [federated.1kwucfo1umwjdt100hul50gmdh82].[sum:index:qk])</rows>
+        <cols>[federated.1kwucfo1umwjdt100hul50gmdh82].[none:Index (bin):ok]</cols>
+      </table>
+      <simple-id uuid='{0A250528-FDCB-49B6-AC2C-C3E5A75194A3}' />
+    </worksheet>
+    <worksheet name='Analysis on number of Manufacturer by Year'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Week 39 - US Toy Manufacturers - 2005 to 2016' name='federated.1kwucfo1umwjdt100hul50gmdh82' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1kwucfo1umwjdt100hul50gmdh82'>
+            <column datatype='integer' name='[Number of Manufacturers]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+            <column-instance column='[Year]' derivation='None' name='[none:Year:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Number of Manufacturers]' derivation='Sum' name='[sum:Number of Manufacturers:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Area' />
+          </pane>
+        </panes>
+        <rows>[federated.1kwucfo1umwjdt100hul50gmdh82].[sum:Number of Manufacturers:qk]</rows>
+        <cols>[federated.1kwucfo1umwjdt100hul50gmdh82].[none:Year:qk]</cols>
+      </table>
+      <simple-id uuid='{4DDF287C-5168-4127-A1E4-6E34224E3A7F}' />
+    </worksheet>
+    <worksheet name='Analysis on toy Manufacturer in US state By Index'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Week 39 - US Toy Manufacturers - 2005 to 2016' name='federated.1kwucfo1umwjdt100hul50gmdh82' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1kwucfo1umwjdt100hul50gmdh82'>
+            <column datatype='string' name='[State]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+            <column caption='Index' datatype='integer' name='[index]' role='measure' type='quantitative' />
+            <column-instance column='[State]' derivation='None' name='[none:State:nk]' pivot='key' type='nominal' />
+            <column-instance column='[index]' derivation='Sum' name='[sum:index:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1kwucfo1umwjdt100hul50gmdh82].[none:State:nk]'>
+            <groupfilter count='10' end='top' function='end' units='records' user:ui-marker='end' user:ui-top-by-field='true'>
+              <groupfilter direction='DESC' expression='SUM([index])' function='order' user:ui-marker='order'>
+                <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;Alabama&quot;' />
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;Alaska&quot;' />
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;Arizona&quot;' />
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;Arkansas&quot;' />
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;California&quot;' />
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;Colorado&quot;' />
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;Connecticut&quot;' />
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;Delaware&quot;' />
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;Florida&quot;' />
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;Georgia&quot;' />
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;Hawaii&quot;' />
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;Idaho&quot;' />
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;Illinois&quot;' />
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;Indiana&quot;' />
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;Iowa&quot;' />
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;Kansas&quot;' />
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;Kentucky&quot;' />
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;Louisiana&quot;' />
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;Maine&quot;' />
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;Maryland&quot;' />
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;Massachusetts&quot;' />
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;Michigan&quot;' />
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;Minnesota&quot;' />
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;Mississippi&quot;' />
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;Missouri&quot;' />
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;Montana&quot;' />
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;Nebraska&quot;' />
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;Nevada&quot;' />
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;New Hampshire&quot;' />
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;New Jersey&quot;' />
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;New Mexico&quot;' />
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;New York&quot;' />
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;North Carolina&quot;' />
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;North Dakota&quot;' />
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;Ohio&quot;' />
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;Oklahoma&quot;' />
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;Oregon&quot;' />
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;Pennsylvania&quot;' />
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;Puerto Rico&quot;' />
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;Rhode Island&quot;' />
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;South Carolina&quot;' />
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;South Dakota&quot;' />
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;Tennessee&quot;' />
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;Texas&quot;' />
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;United States&quot;' />
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;Utah&quot;' />
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;Vermont&quot;' />
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;Virginia&quot;' />
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;Washington&quot;' />
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;West Virginia&quot;' />
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;Wisconsin&quot;' />
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;Wyoming&quot;' />
+                </groupfilter>
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.1kwucfo1umwjdt100hul50gmdh82].[none:State:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <encodings>
+              <color column='[federated.1kwucfo1umwjdt100hul50gmdh82].[none:State:nk]' />
+              <wedge-size column='[federated.1kwucfo1umwjdt100hul50gmdh82].[sum:index:qk]' />
+              <size column='[federated.1kwucfo1umwjdt100hul50gmdh82].[sum:index:qk]' />
+              <text column='[federated.1kwucfo1umwjdt100hul50gmdh82].[sum:index:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{0FB32E17-8785-42F8-905B-CA8A3B5DAB95}' />
+    </worksheet>
+    <worksheet name='Sheet 2'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Analysis on Toy Manufacturers</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Week 39 - US Toy Manufacturers - 2005 to 2016' name='federated.1kwucfo1umwjdt100hul50gmdh82' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1kwucfo1umwjdt100hul50gmdh82'>
+            <column datatype='integer' name='[Number of Manufacturers]' role='measure' type='quantitative' />
+            <column caption='Week 39 - US Toy Manufacturers - 2005 to 2016.csv' datatype='table' name='[__tableau_internal_object_id__].[Week 39 - US Toy Manufacturers - 2005 to 2016.csv_6A410C1EAC0D4717992C42EBC1BBECCF]' role='measure' type='quantitative' />
+            <column-instance column='[__tableau_internal_object_id__].[Week 39 - US Toy Manufacturers - 2005 to 2016.csv_6A410C1EAC0D4717992C42EBC1BBECCF]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:Week 39 - US Toy Manufacturers - 2005 to 2016.csv_6A410C1EAC0D4717992C42EBC1BBECCF:qk]' pivot='key' type='quantitative' />
+            <column caption='Index' datatype='integer' name='[index]' role='measure' type='quantitative' />
+            <column-instance column='[Number of Manufacturers]' derivation='Sum' name='[sum:Number of Manufacturers:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[index]' derivation='Sum' name='[sum:index:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1kwucfo1umwjdt100hul50gmdh82].[:Measure Names]'>
+            <groupfilter function='level-members' level='[:Measure Names]' />
+          </filter>
+          <slices>
+            <column>[federated.1kwucfo1umwjdt100hul50gmdh82].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.1kwucfo1umwjdt100hul50gmdh82].[Multiple Values]' field-type='quantitative' max='210369.60875922698' min='-11368.436083461622' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.1kwucfo1umwjdt100hul50gmdh82].[Multiple Values]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1kwucfo1umwjdt100hul50gmdh82].[Multiple Values]</rows>
+        <cols>[federated.1kwucfo1umwjdt100hul50gmdh82].[:Measure Names]</cols>
+      </table>
+      <simple-id uuid='{CE176FC5-0D69-4393-8CBA-DE58BEE8CBFB}' />
+    </worksheet>
+    <worksheet name='Top 10 states toy manufacturer in US state'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Week 39 - US Toy Manufacturers - 2005 to 2016' name='federated.1kwucfo1umwjdt100hul50gmdh82' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1kwucfo1umwjdt100hul50gmdh82'>
+            <column datatype='string' name='[State]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+            <column caption='Week 39 - US Toy Manufacturers - 2005 to 2016.csv' datatype='table' name='[__tableau_internal_object_id__].[Week 39 - US Toy Manufacturers - 2005 to 2016.csv_6A410C1EAC0D4717992C42EBC1BBECCF]' role='measure' type='quantitative' />
+            <column-instance column='[__tableau_internal_object_id__].[Week 39 - US Toy Manufacturers - 2005 to 2016.csv_6A410C1EAC0D4717992C42EBC1BBECCF]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:Week 39 - US Toy Manufacturers - 2005 to 2016.csv_6A410C1EAC0D4717992C42EBC1BBECCF:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[State]' derivation='None' name='[none:State:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1kwucfo1umwjdt100hul50gmdh82].[none:State:nk]'>
+            <groupfilter count='10' end='top' function='end' units='records' user:ui-marker='end' user:ui-top-by-field='true'>
+              <groupfilter direction='DESC' expression='COUNT([__tableau_internal_object_id__].[Week 39 - US Toy Manufacturers - 2005 to 2016.csv_6A410C1EAC0D4717992C42EBC1BBECCF])' function='order' user:ui-marker='order'>
+                <groupfilter function='level-members' level='[none:State:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.1kwucfo1umwjdt100hul50gmdh82].[none:State:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1kwucfo1umwjdt100hul50gmdh82].[none:State:nk]' />
+              <text column='[federated.1kwucfo1umwjdt100hul50gmdh82].[__tableau_internal_object_id__].[cnt:Week 39 - US Toy Manufacturers - 2005 to 2016.csv_6A410C1EAC0D4717992C42EBC1BBECCF:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1kwucfo1umwjdt100hul50gmdh82].[none:State:nk]</rows>
+        <cols>[federated.1kwucfo1umwjdt100hul50gmdh82].[__tableau_internal_object_id__].[cnt:Week 39 - US Toy Manufacturers - 2005 to 2016.csv_6A410C1EAC0D4717992C42EBC1BBECCF:qk]</cols>
+      </table>
+      <simple-id uuid='{EE90F9BC-5709-4A30-AB5E-95DB3BA33934}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard enable-sort-zone-taborder='true' name='Dashboard 1'>
+      <style>
+        <style-rule element='table'>
+          <format attr='background-color' value='#e7f1f5' />
+        </style-rule>
+      </style>
+      <size maxheight='1160' maxwidth='1120' minheight='960' minwidth='1120' sizing-mode='range' />
+      <zones>
+        <zone h='33229' id='3' name='Analysis on number of Manufacturer by Year' w='39286' x='52946' y='6771'>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='solid' />
+            <format attr='border-width' value='2' />
+          </zone-style>
+        </zone>
+        <zone h='30000' id='4' name='Sheet 2' w='38661' x='53571' y='40104'>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='solid' />
+            <format attr='border-width' value='2' />
+          </zone-style>
+        </zone>
+        <zone h='33229' id='5' name='Top 10 states toy manufacturer in US state' w='50804' x='1250' y='6875'>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='solid' />
+            <format attr='border-width' value='2' />
+          </zone-style>
+        </zone>
+        <zone h='28542' id='7' name='Analysis on toy Manufacturer in US state By Index' w='37857' x='26786' y='70729'>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='solid' />
+            <format attr='border-width' value='2' />
+          </zone-style>
+        </zone>
+        <zone h='29792' id='8' name='Analysis on Toy Manufacturer by index' w='50446' x='1429' y='40417'>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='solid' />
+            <format attr='border-width' value='2' />
+          </zone-style>
+        </zone>
+        <zone forceUpdate='true' h='5000' id='9' type-v2='text' w='93839' x='1161' y='1458'>
+          <formatted-text>
+            <run fontalignment='1'>Æ </run>
+            <run bold='true' fontalignment='1' fontcolor='#000000' fontname='Benton Sans Book' fontsize='15'>ToyCraft Tales Tableau’s Vision into Toy Manufacturer Data</run>
+          </formatted-text>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='solid' />
+            <format attr='border-width' value='2' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='1550' minheight='1550' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='13' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98334' id='12' param='vert' type-v2='layout-flow' w='98572' x='714' y='833'>
+                <zone forceUpdate='true' h='5000' id='9' type-v2='text' w='93839' x='1161' y='1458'>
+                  <formatted-text>
+                    <run fontalignment='1'>Æ </run>
+                    <run bold='true' fontalignment='1' fontcolor='#000000' fontname='Benton Sans Book' fontsize='15'>ToyCraft Tales Tableau’s Vision into Toy Manufacturer Data</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='solid' />
+                    <format attr='border-width' value='2' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='33229' id='3' is-fixed='true' name='Analysis on number of Manufacturer by Year' w='39286' x='52946' y='6771'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='solid' />
+                    <format attr='border-width' value='2' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='33229' id='5' is-fixed='true' name='Top 10 states toy manufacturer in US state' w='50804' x='1250' y='6875'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='solid' />
+                    <format attr='border-width' value='2' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='30000' id='4' is-fixed='true' name='Sheet 2' w='38661' x='53571' y='40104'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='solid' />
+                    <format attr='border-width' value='2' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='29792' id='8' is-fixed='true' name='Analysis on Toy Manufacturer by index' w='50446' x='1429' y='40417'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='solid' />
+                    <format attr='border-width' value='2' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='28542' id='7' is-fixed='true' name='Analysis on toy Manufacturer in US state By Index' w='37857' x='26786' y='70729'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='solid' />
+                    <format attr='border-width' value='2' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{25A114A9-8E37-495F-9BC9-7FF2811C9DF4}' />
+    </dashboard>
+    <dashboard name='Story 1' type='storyboard'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontcolor='#000000' fontname='Benton Sans Book'>ToyCraft Tales: Tableau’s Vision into Toy Manufacturer Data Story</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <style>
+        <style-rule element='story-point-caption'>
+          <format attr='width' value='268' />
+        </style-rule>
+      </style>
+      <size maxheight='964' maxwidth='1016' minheight='964' minwidth='1016' />
+      <zones>
+        <zone h='100000' id='2' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98340' id='1' param='vert' removable='false' type-v2='layout-flow' w='98426' x='787' y='830'>
+            <zone h='3216' id='3' type-v2='title' w='98426' x='787' y='830' />
+            <zone h='10477' id='4' is-fixed='true' paired-zone-id='5' removable='false' type-v2='flipboard-nav' w='98426' x='787' y='4046' />
+            <zone h='84647' id='5' paired-zone-id='4' removable='false' type-v2='flipboard' w='98426' x='787' y='14523'>
+              <flipboard active-id='6' nav-type='caption' show-nav-arrows='true'>
+                <story-points>
+                  <story-point caption='California leads toy manufacturing in the U.S., followed by Texas and Florida.&#10;These top 10 states represent major production hubs with strong industry presence.' captured-sheet='Top 10 states toy manufacturer in US state' id='1' />
+                  <story-point caption='The number of manufacturers steadily declined from 2005 to 2016.&#10;This trend may reflect industry consolidation or rising production costs.' captured-sheet='Analysis on number of Manufacturer by Year' id='2' />
+                  <story-point caption='Manufacturer count increases with index bins, showing strong distribution density.&#10;The cumulative line highlights rapid growth across the index range.&#10;&#10;' captured-sheet='Analysis on Toy Manufacturer by index' id='4' />
+                  <story-point caption='There are 174,345 total index entries but only 15,400 unique manufacturers.&#10;This shows multiple data points per manufacturer, indicating detailed tracking.' captured-sheet='Sheet 2' id='5' />
+                  <story-point caption='States like Wyoming and Wisconsin contribute significantly to the index.&#10;The pie chart reveals the geographic spread of manufacturing influence.' captured-sheet='Analysis on toy Manufacturer in US state By Index' id='6' />
+                </story-points>
+              </flipboard>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <simple-id uuid='{CB78705D-1C04-4FEC-9F58-47AE10595C59}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='30'>
+    <window class='worksheet' maximized='true' name='Analysis on number of Manufacturer by Year'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{BBFC83B1-B723-4213-BE24-77A8B3782ED7}' />
+    </window>
+    <window class='worksheet' name='Sheet 2'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{F7D333E0-8DD0-47B3-8D3C-045B929CBA8E}' />
+    </window>
+    <window class='worksheet' name='Top 10 states toy manufacturer in US state'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1kwucfo1umwjdt100hul50gmdh82].[none:State:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{7987C70A-FA40-42CE-B6C0-EB6FFD1922BA}' />
+    </window>
+    <window class='worksheet' name='Analysis on toy Manufacturer in US state By Index'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.1kwucfo1umwjdt100hul50gmdh82].[none:State:nk]' type='filter' />
+            <card pane-specification-id='0' param='[federated.1kwucfo1umwjdt100hul50gmdh82].[none:State:nk]' type='color' />
+            <card pane-specification-id='0' param='[federated.1kwucfo1umwjdt100hul50gmdh82].[sum:index:qk]' type='size' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{0D769B8A-5359-458D-A201-23E2CBC3FD06}' />
+    </window>
+    <window class='worksheet' name='Analysis on Toy Manufacturer by index'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='4' param='[federated.1kwucfo1umwjdt100hul50gmdh82].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{B53E7A3E-7C56-44AE-B86F-931C637C7C0D}' />
+    </window>
+    <window class='dashboard' name='Dashboard 1'>
+      <viewpoints>
+        <viewpoint name='Analysis on Toy Manufacturer by index'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Analysis on number of Manufacturer by Year'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Analysis on toy Manufacturer in US state By Index'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Sheet 2'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Top 10 states toy manufacturer in US state' />
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{A1260316-13E9-4F20-BBDE-B21104EC4CC1}' />
+    </window>
+    <window class='dashboard' name='Story 1'>
+      <viewpoints />
+      <active id='-1' />
+      <simple-id uuid='{57C55770-9657-41C0-96E5-89DDF959CB08}' />
+    </window>
+  </windows>
+</workbook>
